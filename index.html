@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tadaow — Make Music with AI Magic</title>
+    <meta
+      name="description"
+      content="Tadaow is an AI music creation platform for producers, artists, and creators. Join the waitlist."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@500;600;700&family=Rajdhani:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-nav" aria-label="Primary">
+      <a class="logo" href="#hero" aria-label="Tadaow home">Tadaow</a>
+      <a class="btn btn-primary" href="#waitlist">Join Waitlist</a>
+    </header>
+
+    <main>
+      <section id="hero" class="hero" aria-labelledby="hero-title">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <p class="eyebrow">Make Music with AI Magic</p>
+          <h1 id="hero-title">Unleash Your Sound with AI Magic.</h1>
+          <p class="hero-subtitle">
+            Transform your creative vision into sonic reality. Tadaow empowers artists to compose, produce, and innovate
+            with cutting-edge artificial intelligence.
+          </p>
+          <a class="btn btn-primary" href="#waitlist">Join the Waitlist</a>
+        </div>
+      </section>
+
+      <section class="section container" aria-labelledby="features-title">
+        <h2 id="features-title">Elevate Your Production.</h2>
+        <p class="section-subhead">Discover the innovative capabilities that set Tadaow apart.</p>
+
+        <div class="feature-grid">
+          <article class="card feature-card">
+            <div class="icon" aria-hidden="true">♫</div>
+            <h3>AI-Powered Composition</h3>
+            <p>Generate unique melodies, harmonies, and rhythms instantly with suggestions tailored to your style.</p>
+          </article>
+          <article class="card feature-card">
+            <div class="icon" aria-hidden="true">◈</div>
+            <h3>Intuitive Workflow</h3>
+            <p>Streamline production with an interface designed for artists so you can focus on creativity, not complexity.</p>
+          </article>
+          <article class="card feature-card">
+            <div class="icon" aria-hidden="true">◉</div>
+            <h3>Dynamic Sound Design</h3>
+            <p>Sculpt custom sounds and textures with advanced AI algorithms and achieve polished tracks effortlessly.</p>
+          </article>
+          <article class="card feature-card">
+            <div class="icon" aria-hidden="true">⟷</div>
+            <h3>Seamless Collaboration</h3>
+            <p>Share projects, gather feedback, and keep teams aligned with fluid, efficient collaboration tools.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt" aria-labelledby="how-title">
+        <div class="container">
+          <h2 id="how-title">Your Music, Accelerated.</h2>
+          <p class="section-subhead">Experience the power of AI in three simple steps.</p>
+          <div class="steps">
+            <article class="card step-card">
+              <span class="step-number">01</span>
+              <h3>Define Your Vision</h3>
+              <p>Input genre, mood, and instrumentation. Tadaow learns your preferences.</p>
+            </article>
+            <article class="card step-card">
+              <span class="step-number">02</span>
+              <h3>Generate &amp; Refine</h3>
+              <p>Receive unique musical ideas instantly, then tweak and iterate with intelligent suggestions.</p>
+            </article>
+            <article class="card step-card">
+              <span class="step-number">03</span>
+              <h3>Export &amp; Share</h3>
+              <p>Download high-quality tracks in multiple formats, ready for projects and audiences.</p>
+            </article>
+          </div>
+          <div class="section-cta-wrap">
+            <a class="btn btn-primary" href="#waitlist">Get Started with Tadaow</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" aria-labelledby="faq-title">
+        <h2 id="faq-title">Your Questions, Answered.</h2>
+        <p class="section-subhead">Find quick answers to the most common inquiries about Tadaow.</p>
+        <div class="faq-list" role="list">
+          <details class="faq-item">
+            <summary>What kind of music can Tadaow create?</summary>
+            <p>Tadaow supports a wide range of genres, from electronic and ambient to orchestral and pop.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is prior music production experience required?</summary>
+            <p>No. Tadaow is built for professionals and beginners with intuitive tools and AI guidance.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How does Tadaow ensure originality?</summary>
+            <p>Our AI generates unique compositions based on your inputs, so tracks are original and royalty-free for your use.</p>
+          </details>
+          <details class="faq-item">
+            <summary>When will Tadaow be available?</summary>
+            <p>Tadaow is currently in private beta. Join the waitlist to be among the first to gain access.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="waitlist" class="section waitlist" aria-labelledby="waitlist-title">
+        <div class="container narrow">
+          <h2 id="waitlist-title">Be Among the First.</h2>
+          <p class="section-subhead">
+            Join the Tadaow waitlist and unlock the future of music production. Early access members receive exclusive updates.
+          </p>
+
+          <form id="waitlist-form" class="waitlist-form" novalidate>
+            <label for="email" class="sr-only">Email address</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email address" required />
+            <button type="submit" class="btn btn-primary">Join the Waitlist Now</button>
+            <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2023 Tadaow. All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
